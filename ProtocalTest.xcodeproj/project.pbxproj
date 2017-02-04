@@ -15,6 +15,7 @@
 		EBCF14221E45B582004F048B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBCF14201E45B582004F048B /* LaunchScreen.storyboard */; };
 		EBCF142D1E45B582004F048B /* ProtocalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF142C1E45B582004F048B /* ProtocalTestTests.m */; };
 		EBCF14381E45B582004F048B /* ProtocalTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF14371E45B582004F048B /* ProtocalTestUITests.m */; };
+		EBCF14481E45B5EB004F048B /* TWPersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCF14471E45B5EB004F048B /* TWPersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		EBCF14331E45B582004F048B /* ProtocalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCF14371E45B582004F048B /* ProtocalTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocalTestUITests.m; sourceTree = "<group>"; };
 		EBCF14391E45B582004F048B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCF14451E45B593004F048B /* MyProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProtocal.h; sourceTree = "<group>"; };
+		EBCF14461E45B5EB004F048B /* TWPersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPersion.h; sourceTree = "<group>"; };
+		EBCF14471E45B5EB004F048B /* TWPersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPersion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,9 @@
 		EBCF14111E45B581004F048B /* ProtocalTest */ = {
 			isa = PBXGroup;
 			children = (
+				EBCF14461E45B5EB004F048B /* TWPersion.h */,
+				EBCF14471E45B5EB004F048B /* TWPersion.m */,
+				EBCF14451E45B593004F048B /* MyProtocal.h */,
 				EBCF14151E45B582004F048B /* AppDelegate.h */,
 				EBCF14161E45B582004F048B /* AppDelegate.m */,
 				EBCF14181E45B582004F048B /* ViewController.h */,
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBCF141A1E45B582004F048B /* ViewController.m in Sources */,
+				EBCF14481E45B5EB004F048B /* TWPersion.m in Sources */,
 				EBCF14171E45B582004F048B /* AppDelegate.m in Sources */,
 				EBCF14141E45B582004F048B /* main.m in Sources */,
 			);

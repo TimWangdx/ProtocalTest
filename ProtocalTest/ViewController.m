@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "TWPersion.h"
 
 @interface ViewController ()
+
+
 
 @end
 
@@ -17,6 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    TWPersion *p = [[TWPersion alloc] init];
+    p.name = @"wang";
+    NSLog(@"%@",p.description);
+    
 }
 
 
